@@ -55,7 +55,7 @@ export default function Sidebar() {
                 className={`${open && 'translate x-0'}  py-3 my-2  hover:bg-blue-800 rounded-md duration-300 cursor-pointer flex gap-2 items-center relative group`}>
                 <Nav.Link as={Link} to={item.link} >{item.icons}</Nav.Link>
                 <Nav.Link as={Link} to={item.link} className={`${!open && 'w-0 translate-x-24'} translate-y-0.5 duration-500 overflow-hidden`}>{item.label}</Nav.Link>
-                <p as={Link} to={item.link} className={`${open && 'hidden'} absolute left-32 shadow-md rounded-md
+                <p className={`${open && 'hidden'} absolute left-32 shadow-md rounded-md
                  w-0 p-0 text-black bg-white duration-100 overflow-hidden group-hover:w-fit group-hover:p-2 group-hover:left-16
                 `}>{item.label}</p>
 

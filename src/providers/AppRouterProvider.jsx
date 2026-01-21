@@ -1,9 +1,9 @@
-import { RouterProvider ,createBrowserRouter} from 'react-router'
+import { RouterProvider ,createHashRouter} from 'react-router';
 import AdminLayout from"../layouts/AdminLayout";
 import UserLayout from "../layouts/UserLayout";
 import { Home,Profile,Setting } from '../pages/user';
 import { HomeAdmin,ProfileAdmin,SettingAdmin } from '../pages/admin';
-const router=createBrowserRouter(
+const router=createHashRouter(
   [
     {
     path:"/admin",
