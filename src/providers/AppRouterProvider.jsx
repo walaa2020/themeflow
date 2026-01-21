@@ -1,4 +1,4 @@
-import { RouterProvider ,createHashRouter} from 'react-router';
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import AdminLayout from"../layouts/AdminLayout";
 import UserLayout from "../layouts/UserLayout";
 import { Home,Profile,Setting } from '../pages/user';
@@ -13,11 +13,11 @@ const router=createHashRouter(
     element:<HomeAdmin/>
   },
     {
-    path:"profile",
+    path:"/profile",
     element:<ProfileAdmin/>
   },
    {
-    path:"setting",
+    path:"/setting",
     element:<SettingAdmin/>
   },
    ]},
@@ -29,11 +29,11 @@ const router=createHashRouter(
     element:<Home/>
   },
     {
-    path:"profile",
+    path:"/profile",
     element:<Profile/>
   },
    {
-    path:"setting",
+    path:"/setting",
     element:<Setting/>
   },
    ]},

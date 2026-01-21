@@ -15,18 +15,18 @@ const menuItems = [
   {
     icons: <IoHomeOutline size={30} />,
     label: 'Home',
-    link: ''
+    link: '/'
   },
   {
     icons: <FaUserCircle size={30} />,
     label: 'Profile',
-    link: 'profile'
+    link: '/profile'
   },
 
   {
     icons: <CiSettings size={30} />,
     label: 'Setting',
-    link: 'setting'
+    link: '/setting'
   },
 
 ]
@@ -52,7 +52,7 @@ export default function Sidebar() {
                 onClick={() => {
 
                 }}
-                className={`${open && 'translate x-0'}  py-3 my-2  hover:bg-blue-800 rounded-md duration-300 cursor-pointer flex gap-2 items-center relative group`}>
+                className={`${open && 'translate-x-0'}  py-3 my-2  hover:bg-blue-800 rounded-md duration-300 cursor-pointer flex gap-2 items-center relative group`}>
                 <Nav.Link as={Link} to={item.link} >{item.icons}</Nav.Link>
                 <Nav.Link as={Link} to={item.link} className={`${!open && 'w-0 translate-x-24'} translate-y-0.5 duration-500 overflow-hidden`}>{item.label}</Nav.Link>
                 <p className={`${open && 'hidden'} absolute left-32 shadow-md rounded-md

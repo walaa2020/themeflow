@@ -15,13 +15,13 @@ export const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav ">
           <Nav className="me-auto -translate-x-20">
-            <Nav.Link as={NavLink} to="" className='fw-bold' style={({ isActive }) => ({
+            <Nav.Link as={NavLink} to="/" className='fw-bold' style={({ isActive }) => ({
       color: isActive ? "#e7feff " : "#8cbed6 ",
     })}>Home</Nav.Link>
-            <Nav.Link as={NavLink} to="profile" className='fw-bold'style={({ isActive }) => ({
+            <Nav.Link as={NavLink} to="/profile" className='fw-bold'style={({ isActive }) => ({
       color: isActive ? "#e7feff " : "#8cbed6 ",
     })} >Profile</Nav.Link>
-            <Nav.Link as={NavLink} to="setting" className='fw-bold'style={({ isActive }) => ({
+            <Nav.Link as={NavLink} to="/setting" className='fw-bold'style={({ isActive }) => ({
       color: isActive ? "#e7feff " : "#8cbed6 ",
     })}>Setting</Nav.Link>
            </Nav>
