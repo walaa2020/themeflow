@@ -13,11 +13,11 @@ const router=createHashRouter(
     element:<HomeAdmin/>
   },
     {
-    path:"profile",
+    path:"profileAdmin",
     element:<ProfileAdmin/>
   },
    {
-    path:"setting",
+    path:"settingAdmin",
     element:<SettingAdmin/>
   },
    ]},

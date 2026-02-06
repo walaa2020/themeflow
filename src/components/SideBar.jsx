@@ -15,18 +15,18 @@ const menuItems = [
   {
     icons: <IoHomeOutline size={30} />,
     label: 'Home',
-    link: '/'
+    link: '/admin'
   },
   {
     icons: <FaUserCircle size={30} />,
     label: 'Profile',
-    link: '/profile'
+    link: '/profileAdmin'
   },
 
   {
     icons: <CiSettings size={30} />,
     label: 'Setting',
-    link: '/setting'
+    link: '/settingAdmin'
   },
 
 ]
