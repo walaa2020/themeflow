@@ -12,24 +12,11 @@ import { CiSettings } from "react-icons/ci";
 
 
 const menuItems = [
-  {
-    icons: <IoHomeOutline size={30} />,
-    label: 'Home',
-    link: '/admin'
-  },
-  {
-    icons: <FaUserCircle size={30} />,
-    label: 'Profile',
-    link: '/profileAdmin'
-  },
-
-  {
-    icons: <CiSettings size={30} />,
-    label: 'Setting',
-    link: '/settingAdmin'
-  },
-
+  { icons: <IoHomeOutline size={30} />, label: 'Home', link: '/admin' },
+  { icons: <FaUserCircle size={30} />, label: 'Profile', link: '/admin/profileAdmin' },
+  { icons: <CiSettings size={30} />, label: 'Setting', link: '/admin/settingAdmin' },
 ]
+
 const colors = ["red", "green", "blue", "black"];
 export default function Sidebar() {
 
