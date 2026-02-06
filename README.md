@@ -1,18 +1,43 @@
-# React + Vite
+# ThemeFlow Admin & User Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ThemeFlow** is a React-based dashboard project with two main layouts:  
 
-Currently, two official plugins are available:
+- **Admin Layout**: includes a collapsible Sidebar for navigation between admin pages.  
+- **User Layout**: includes a NavBar for standard user navigation.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project uses React, Redux, React Router, Bootstrap, and Tailwind CSS.
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Technologies Used
 
-Note: This will impact Vite dev & build performances.
+- **React 18**: for building the UI.  
+- **Redux Toolkit**: for managing the theme color state.  
+- **React Router v6**: for routing, using `HashRouter` to support GitHub Pages.  
+- **Bootstrap 5 & React-Bootstrap**: for styling components.  
+- **Tailwind CSS**: for custom styles and layouts.  
+- **React Icons**: for icons in the Sidebar and NavBar.  
+- **LocalStorage**: to persist the selected theme color across sessions.
 
-## Expanding the ESLint configuration
+---
+## Running Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+
+```bash
+git clone https://github.com/walaa2020/themeflow.git
+cd REPO
+
+```
+2.Install dependencies:
+
+```bash
+npm install
+
+```
+
+3.Run the development server:
+```bash
+npm run dev
+```
+
