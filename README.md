@@ -11,10 +11,10 @@ The project uses React, Redux, React Router, Bootstrap, and Tailwind CSS.
 
 ## Technologies Used
 
-- **React 18**: for building the UI.  
+- **React 19**: for building the UI.  
 - **Redux Toolkit**: for managing the theme color state.  
 - **React Router v6**: for routing, using `HashRouter` to support GitHub Pages.  
-- **Bootstrap 5 & React-Bootstrap**: for styling components.  
+- **React-Bootstrap**: for styling components.  
 - **Tailwind CSS**: for custom styles and layouts.  
 - **React Icons**: for icons in the Sidebar and NavBar.  
 - **LocalStorage**: to persist the selected theme color across sessions.
